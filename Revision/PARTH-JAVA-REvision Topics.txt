@@ -1,0 +1,223 @@
+
+Java Topic
+-----------------------------------------
+01. java features
+02. polymorphism
+03. multithreading - advantages/disadvantage
+04. object
+05. class
+06. hashmap
+07. string/StringBuffer/stringbuilder
+08. Acid property
+09. HTTP vs HTTPS
+10. mapping - get/put/patch/delete
+11. PUT vs PATCH
+12. normalization
+13. SQL join
+15. injection dependency
+16. Inversion of control
+17. treeset and hashset
+18. Requestparam and pathvariable 
+19. Serialization
+API20.  StreAPIAPI
+
+**************************************************************************************
+
+
+05. What is a class in Java?
+Ans:
+A class is a group of objects which have common properties. It is a template or blueprint from which objects are created. It is a logical entity. It can't be physical.
+
+A class in Java can contain:
+
+Fields
+Methods
+Constructors
+Blocks
+Nested class and interface
+
+============================================
+
+01. Features of Java Programming Language?
+Ans:
+** Inspired by C and C++
+** Simple and familiar
+** Object-oriented
+** Platform independent
+* Compiled and interpreted
+* Multi-threaded
+* Dynamic
+** Robust
+** Secure
+* High Performance
+* Portable
+** Automatic Garbage Collection
+
+=================================================
+
+02. Java Polymorphism
+Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+
+For example, think of a superclass called Animal that has a method called animalSound(). Subclasses of Animals could be Pigs, Cats, Dogs, Birds - And they also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.):
+
+======================================================
+
+04. object
+Ans:
+
+An Object is an entity that has state and behavior   
+ e.g., chair, bike, marker, pen, table, car, etc. It can be physical or logical.
+
+=================================================
+
+03. multithreading - advantages/disadvantage.
+
+Ans:
+advantages of multithreading:
+-------------------------------
+* Enhanced performance by decreased development time.
+* Decreased cost of maintenance.
+* Better use of CPU resource.
+
+disadvantages of multithreading:
+--------------------------------
+* Increased difficulty level in writing a program.
+* Unpredictable results.
+* Complex debugging and testing processes.
+
+====================================================
+
+06. hashmap.
+Ans:
+Java HashMap is a class which is used to perform operations such as inserting, deleting and locating elements in a map. We create a map, where we pass two kinds of values which are 'key' and 'value'.
+
+====================================================
+
+07. string/StringBuffer/stringbuilder.
+Ans:
+String is immutable whereas StringBuffer and StringBuilder are mutable classes. StringBuffer is thread-safe and synchronized whereas StringBuilder is not. That's why StringBuilder is faster than StringBuffer. String concatenation operator (+) internally uses StringBuffer or StringBuilder class.
+
+=====================================================
+
+08. Acid property.
+Ans:
+In the transaction processing context, the ACID acronym refers to the four primary and essential properties of a transaction. These are atomicity, consistency, isolation, durability.
+
+
+====================================================
+
+
+09. HTTP vs HTTPS.
+Ans:
+HTTPS uses TLS (SSL) to encrypt normal HTTP requests and responses, and to digitally sign those requests and responses. As a result, HTTPS is far more secure than HTTP.
+
+===================================================
+
+10. mapping - get/put/patch/delete.
+Ans:
+POST creates a resource.
+ PUT replaces a resource.
+ PATCH updates a resource. 
+DELETE removes a resource.
+
+===================================================
+
+11. PUT vs PATCH.
+Ans:
+PUT is a method of modifying resource where the client sends data that updates the entire resource . PATCH is a method of modifying resources where the client sends partial data that is to be updated without modifying the entire data.
+
+
+==================================================
+
+12. normalization.
+Ans:
+Normalization is the process of organizing data into a related table; it also eliminates redundancy and increases the integrity which improves performance of the query. To normalize a database, we divide the database into tables and establish relationships between the tables.
+
+==================================================
+
+
+13. SQL join.
+Ans:
+If you want to combine two or more table then SQL JOIN statement is used . it combines rows of that tables in one table and one can retrieve the information by a SELECT statement. The joining of two or more tables is based on common field between them.
+
+
+===================================================
+
+
+15. injection dependency.
+Ans:
+Dependency injection enables you to turn regular Java classes into managed objects and to inject them into any other managed object. Using dependency injection, your code can declare dependencies on any managed object.
+
+
+====================================================
+
+
+16. Inversion of control.
+Ans:
+ Inversion of Control (IoC) is a design principle that allows classes to be loosely coupled and, therefore, easier to test and maintain. IoC refers to transferring the control of objects and their dependencies from the main program to a container or framework. IoC is a principle, not a design pattern – the implementation details depend on the developer. All IoC does is provide high-level guidelines.
+
+
+====================================================
+
+
+17. treeset and hashset.
+Ans:
+A TreeSet is a set where the elements are sorted. A HashSet is a set where the elements are not sorted or ordered. It is faster than a TreeSet. The HashSet is an implementation of a Set.
+
+
+====================================================
+
+
+18. Requestparam and pathvariable .
+Ans:
+The @RequestParam is used to extract query parameters 
+while @PathVariable is used to extract data right from the URI.
+
+
+======================================================
+
+
+19. Serialization.
+Ans:
+Serialization is the process of converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file. Its main purpose is to save the state of an object in order to be able to recreate it when needed. The reverse process is called deserialization.
+
+
+
+=====================================================
+
+
+API20.  StreAPIAPI.
+Ans:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
