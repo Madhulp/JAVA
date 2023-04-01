@@ -1,0 +1,15 @@
+8package question4;
+
+public class CompileError {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float f = 3.3;
+		System.out.println(f);
+
+	}
+	//this program is giving compile time error because
+	//we have to type cast the float data type 
+	//Because value is double data type
+
+}

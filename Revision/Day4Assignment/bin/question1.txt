@@ -1,0 +1,1 @@
+Q1) DifQ1. Differentiate between static and non-static variables?

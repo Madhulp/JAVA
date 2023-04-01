@@ -1,0 +1,8 @@
+
+Q1) Explain Type casting and its types with examples?
+
+Ans : 
+
+Q3) Explain the difference between local and instance variables
+
+
