@@ -9,22 +9,17 @@ public class Student {
 	
 	public static Student getStudent(boolean isFromNIT) {
 		if(isFromNIT) {
-			Student s = new Student();
-			s.setRoll(1);
-			s.setName("Nafisa");
-			s.setCollageName("NIT");
-			s.setAddress("Nagpur");
-			return s;
+			return new Student(1, "Nafisa", "Nagpur");	
 		}
-		return Student;
+		else {
+			return new Student(2, "Partha", "kolkata", "Meebu");
+		}
 		
 	}
-	
 	
 	public Student() {
 		// TODO Auto-generated constructor stub
 	}
-	
 	
 	public Student(int roll, String name, String address, String collageName) {
 		super();
@@ -33,7 +28,16 @@ public class Student {
 		this.address = address;
 		this.collageName = collageName;
 	}
+	
+	
 
+	public Student(int roll, String name, String address) {
+		super();
+		this.roll = roll;
+		this.name = name;
+		this.address = address;
+		this.collageName = "NIT";
+	}
 
 	public int getRoll() {
 		return roll;
@@ -59,6 +63,7 @@ public class Student {
 	public void setCollageName(String collageName) {
 		this.collageName = collageName;
 	}
+
 	@Override
 	public String toString() {
 		return "Student [roll=" + roll + ", name=" + name + ", address=" + address + ", collageName=" + collageName
