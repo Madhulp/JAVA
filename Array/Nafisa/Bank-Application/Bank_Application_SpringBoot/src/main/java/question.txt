@@ -1,0 +1,23 @@
+BANK 
+==================================================
+Model: User, Investor 
+
+Exception: 
+• GlobalException( like : Exception,yourException )
+
+• MyErrorDetails
+• your own exception handler(like userException, investorException)
+
+controller: expose your all service method here
+
+service:
+RegisterUser and Investor
+GetAllUser and Investor
+FindbyAC and investor
+UpdateData
+Deposit
+Withdraw
+
+repository :
+connect with data JPA 
+
