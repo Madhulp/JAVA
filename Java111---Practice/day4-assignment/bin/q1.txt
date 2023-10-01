@@ -1,0 +1,4 @@
+
+
+
+Q1) Differentiate between static and non-static variables?
