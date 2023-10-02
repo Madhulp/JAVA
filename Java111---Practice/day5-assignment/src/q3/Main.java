@@ -7,6 +7,10 @@ public class Main {
 		
 		Shape s = new Shape();
 		s.area(new Circle(2));
+		
+		s.area(new Rectangle(2, 8));
+		
+		s.area(new Square(5));
 
 	}
 

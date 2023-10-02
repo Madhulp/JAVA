@@ -7,13 +7,6 @@ public class Circle{
 	public Circle(int radius) {
 		super();
 		this.radius = radius;
-	}
-
-	@Override
-	public String toString() {
-		return "Circle [radius=" + radius + "]";
-	}
-	
-	
+	}		
 
 }
