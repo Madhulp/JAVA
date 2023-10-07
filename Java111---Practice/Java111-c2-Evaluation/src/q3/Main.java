@@ -11,7 +11,7 @@ public class Main {
 		int noOfBooking = sc.nextInt();
 		
 		System.out.println("Enter the available tickets: ");
-		int availableTickets = sc.nextInt();
+		Ticket.availableTickets = sc.nextInt();
 		
 		for(int i=0; i<noOfBooking; i++) {
 			Ticket t = new Ticket();
@@ -27,13 +27,12 @@ public class Main {
 			
 			int totalAmount = t.calculateTicketCost(noOfTickets);
 			
-			if(totalAmount != -1) {
-				System.out.println("Available ticket: "+t.availableTickets);
-				System.out.println("Total Amount: "+totalAmount);
-				System.out.println("Avaibla ticket after booking"+t.availableTickets);
-			}
-			else {
-				System.out.println("Ticket not vaialable.");
+			if (totalAmount != -1) {
+			    System.out.println("Available tickets: " + Ticket.availableTickets); // Use Ticket.availableTickets here
+			    System.out.println("Total Amount: " + totalAmount);
+			    System.out.println("Available ticket after booking: " + Ticket.availableTickets); // Use Ticket.availableTickets here
+			} else {
+			    System.out.println("Ticket not available.");
 			}
 		}
 		sc.close();
