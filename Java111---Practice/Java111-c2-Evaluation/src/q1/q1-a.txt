@@ -1,0 +1,4 @@
+
+
+a) Why String is immutable in java and what is the difference between String and String Builder? And Write
+some of the methods of String class at least 5 with example.
