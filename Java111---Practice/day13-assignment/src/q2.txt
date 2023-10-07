@@ -1,0 +1,3 @@
+
+
+Q2) Why multiple Inheritance is not supported in Java at the class Level?
