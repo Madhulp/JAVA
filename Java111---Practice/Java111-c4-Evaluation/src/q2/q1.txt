@@ -1,0 +1,2 @@
+
+Q2) Explain about Hashcode and Equals Method.
