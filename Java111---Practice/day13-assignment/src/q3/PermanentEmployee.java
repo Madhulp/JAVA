@@ -21,7 +21,7 @@ public class PermanentEmployee extends Employee{
 	
 	@Override
 	public void calculateSalary() {
-		double pFAmount = basicPay * 0.2;
+		double pFAmount = basicPay * 0.12;
 		Salary = basicPay - pFAmount;
 	}
 	

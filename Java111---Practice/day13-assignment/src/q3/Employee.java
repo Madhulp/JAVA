@@ -30,7 +30,8 @@ package q3;
 		this.employeeName = employeeName;
 	}
 	
-	 public abstract void calculateSalary();
+	 public void calculateSalary() {
+	}
 	
 
 }
