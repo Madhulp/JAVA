@@ -1,0 +1,4 @@
+
+
+Q1) Write a program to traverse (or iterate) ArrayList? (Using Iterator, for loop and
+enhanced for loop) Note: Create a ArrayList of String
